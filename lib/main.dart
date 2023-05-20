@@ -74,14 +74,14 @@ class HomePage extends StatelessWidget {
       name: 'Product 3',
       price: 30,
       imageUrl:
-          'https://brain-images-ssl.cdn.dixons.com/0/8/10167480/u_10167480.jpg',
+          'https://pcgame.ma/wp-content/uploads/2021/02/Logitech-G403-Hero-Gaming-Mouse-1-1280x1280.jpg',
       rating: 4.2,
     ),
   ];
 
   final List<String> bannerImages = [
     'https://www.grinpo.com/wp-content/uploads/2021/03/mouse-gaming-banner.jpg',
-    'https://brain-images-ssl.cdn.dixons.com/0/8/10167480/u_10167480.jpg',
+    'https://azcd.harveynorman.com.au/media/wysiwyg/product/featured/LogitechG203Mouse/g203-gaming-mouse-banner.png',
     'https://wallpaperaccess.com/full/4014390.jpg',
   ];
 
@@ -94,7 +94,7 @@ class HomePage extends StatelessWidget {
           return Container(
             padding: EdgeInsets.all(16),
             child: Text(
-              'Hello, User!', // Modify the greeting message as needed
+              'Hello, John Doe!', // Modify the greeting message as needed
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
@@ -255,8 +255,8 @@ class ProfilePage extends StatelessWidget {
         SizedBox(height: 20),
         CircleAvatar(
           radius: 70,
-          backgroundImage:
-              NetworkImage('https://example.com/profile_image.jpg'),
+          backgroundImage: NetworkImage(
+              'https://i.pinimg.com/originals/34/31/63/3431632de6124926dcfa7bb4159613af.jpg'),
         ),
         SizedBox(height: 20),
         Text(
